@@ -1,9 +1,7 @@
  
 Restaurante App - Sistema Metódico Modular de POO
 
-Datos del Estudiante
 Nombre: Malena Jimena Ramírez Pacho
-Asignatura: Programación Orientada a Objetos (Semana 6)
 
 
 Descripción del Sistema
@@ -14,17 +12,22 @@ Estructura del Proyecto
 
 El proyecto se organiza bajo una estructura estrictamente modular que divide las responsabilidades en paquetes de modelos y servicios, distribuidos de la siguiente manera:
 
-Repositorio GitHub
-├── restaurante_app/
-│   ├── modelos/
-│   │   ├── __init__.py
-│   │   ├── producto.py
-│   │   ├── platillo.py
-│   │   └── bebida.py
-│   ├── servicios/
-│   │   ├── __init__.py
-│   │   └── restaurante.py
-│   └── main.py
+## Estructura del Proyecto
+
+```text
+restaurante_app/
+│
+├── modelos/
+│   ├── __init__.py
+│   ├── producto.py
+│   ├── platillo.py
+│   └── bebida.py
+│
+├── servicios/
+│   ├── __init__.py
+│   └── restaurante.py
+│
+├── main.py
 └── README.md
 
 
@@ -52,7 +55,7 @@ Al momento de recorrer la lista de productos dentro de la clase de servicio "Res
 
 
  Reflexión sobre la Importancia de los Principios de POO
- 
+
 Desarrollar software aplicando los principios de la Programación Orientada a Objetos en entornos modulares es una práctica indispensable para el desarrollo de software profesional. La encapsulación garantiza que los componentes sean robustos y que las reglas de negocio no se rompan por accesos indebidos. La herencia minimiza la redundancia y optimiza el mantenimiento, mientras que el polimorfismo dota al sistema de flexibilidad. 
 
 Al segmentar el código en archivos independientes, se logra un alto nivel de desacoplamiento, facilitando significativamente la detección de errores (debugging), permitiendo la escalabilidad del sistema a largo plazo y optimizando el trabajo colaborativo a través de plataformas de control de versiones como GitHub.
